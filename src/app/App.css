@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(17, 24, 40);
+}
+
+h1{
+    color: #FB6501;
+    text-align: center;
+}
+
+.text-indent{
+    text-indent: 5px;
+}
+
+.center-elem{
+    width: 100%;
+    display: flex;
+    align-items: bottom;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    width: 350px;
+    padding: 30px;
+}
+
+.main-form{
+    margin: 20px 0;
+    width: 100%;
+}
+
+.main-input{
+    width: 100%;
+    border: transparent;
+    border-bottom:1px solid #FB6501;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+.main-input::placeholder{
+    color: white;
+    letter-spacing: 1px;
+}
+
+.add-btn{
+    color: white;
+    background-color: #FB6501;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+}
+
+ul{
+    display: grid;
+    gap: 10px;
+}
+
+li{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: bottom;
+    width: 100%;
+}
+
+.edit-btn{
+    color: #FB6501;
+    margin-left: 5px ;
+}
+
+.fa-trash, .fa-pen-to-square, .fa-xmark{
+    color: #FB6501;
+    background:  rgb(17, 24, 40);
+    font-size: 1rem;
+}
+
+
+.li-controls{
+    width: 20%;
+    display: flex;
+    gap: 10px;
+    display: flexbox;
+    justify-content: right;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+@media screen and (min-width: 600px){
+    section{
+        width: 550px;
+    }
+}
